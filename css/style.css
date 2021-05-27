@@ -1,0 +1,613 @@
+/* 
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+*/
+
+/*========== Header Section Start from Here ============*/
+.menubar ul{
+
+}
+.menubar ul li{
+    margin:0 5px;
+}
+.menubar ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #242F51 !important;
+    font-family: 'Poppins', sans-serif;
+}
+.menubar ul li a:hover{
+    color: #435897 !important;
+}
+.menu-btn{
+    border-radius: 25px ;
+    font-size: 18px;
+}
+header{
+    z-index: 9999;
+}
+.sticky {
+    width: 100%;
+    position: fixed;
+    background-color: rgb(238, 236, 236);
+    transition: 0.2s;
+}
+
+/*=============== Banner Section Start from Here ================*/
+.banner{
+    background: url(../img/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 45px 0;
+}
+.banner-content{
+    margin: 100px 100px;
+}
+.banner-content h6{
+    font-size: 20px;
+    background: #E2EAED;
+    display: inline-block;
+    padding: 7px 25px;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.banner-content h1{
+    font-size: 50px;
+    color: #242F51;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.banner-content p{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    font-family: 'Poppins', sans-serif;
+}
+.banner-btn{
+    margin-top: 30px;
+}
+.banner-btn-1{
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+.banner-btn-2 {
+    color: #435897;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
+.banner-img img{
+    width: 250px;
+    height: auto;
+    border-radius: 40px;
+    margin-left: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+.banner-content-btn{
+    font-size: 10px;
+    font-weight: 500;
+    color: #242F51 !important;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*============== Companies Section Start from Here ==========*/
+.companies{
+    padding: 100px 0;
+    text-align: center;
+}
+.companies-title p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.companies-logo{
+    margin: 40px 10px;
+}
+.companies-logo .item img{
+    width: 120px ;
+    height: auto;
+    
+}
+
+/*=========== Features Section Start from Here =========*/
+.features{
+    padding: 50px 0;
+}
+.features-img img{
+    width: 480px;
+    height: auto;
+}
+.features-text{
+    padding-top: 30px;
+}
+.features-text h1{
+    font-size: 40px;
+    color: #242F51;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.features-text .ft-p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #616060;
+    margin-bottom: 40px;
+}
+.list-img img{
+    width: 80px;
+    height: auto;
+    margin-top: 15px;
+}
+.list-text{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.list-text .lt-1{
+    font-size: 20px;
+    color: #F55767;
+}
+.list-text .lt-2{
+    color: #2563FF;
+    font-size: 20px;
+}
+.list-text .lt-3{
+    color: #40975F;
+    font-size: 20px;
+}
+.list-text p{
+    font-size: 16px;
+    color: #494949;
+}
+
+/*============= Smart Jeckpot Section Start from Here ===========*/
+.smart-jeckpot{
+    padding: 50px 0;
+}
+.content-text-left h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #242F51;
+}
+.content-text-middile{
+    width: 1px;
+    height: 130px;
+    background: #b4b4b6;
+    margin-left: 80px;
+}
+.content-text-right p{
+    font-size: 16px;
+    color: #494949;
+}
+/*============= Smart Jeckpot item Section Start from Here ===========*/
+.smart-jecpot-item{
+    padding: 50px 0;
+}
+.jeckpot-item-content img{
+    width: 100px;
+    height: auto;
+    padding-bottom: 20px;
+}
+.jeckpot-item-content .jic-1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #F55767;
+}
+.jeckpot-item-content .jic-2{
+    font-family: 'Poppins', sans-serif;
+    color: #2563FF;
+    font-size: 20px;
+}
+.jeckpot-item-content .jic-3{
+    font-family: 'Poppins', sans-serif;
+    color: #40975F;
+    font-size: 20px;
+}
+.jeckpot-item-content p{
+    font-size: 16px;
+    color: #494949;
+    padding-right: 40px;
+}
+
+/*======= Code Integration Section Start from Here  ========*/
+.code-integration{
+    padding: 50px 0;
+}
+.cic-img img{
+    width: 500px;
+    height: auto;
+}
+.cic-text{
+    padding-top: 60px;
+    padding-right: 80px;
+    padding-left: 20px;
+}
+.cic-text h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #242F51;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+.cic-text p{
+    font-size: 16px;
+    color: #494949;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 15px;
+}
+.cic-text a{
+
+}
+
+/*========= our services Section Start from Here =============*/
+.our-services{
+    padding: 50px 0;
+}
+.o-s-title{
+    text-align: center;
+    padding: 0 170px;
+}
+.o-s-title h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #242F51;
+    padding-bottom: 15px;
+    font-weight: 600;
+    padding: 0 140px;
+}
+.o-s-title p{
+    font-size: 16px;
+    color: #494949;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 15px;
+}
+.app-item{
+    padding: 50px 0;
+}
+.app-item-content{
+    padding: 20px 20px;
+    text-align: center;
+}
+.app-item-content img{
+    width: 100px;
+    height: auto;
+    padding-bottom: 10px;
+}
+.app-item-content h1{
+    font-family: 'Poppins', sans-serif;
+    color: #242F51;
+    font-size: 20px;
+    font-weight: 600;
+}
+.app-item-content p{
+    font-size: 16px;
+    color: #494949;
+    padding: 0 20px;
+}
+
+/*========= our Features Section Start from Here ===========*/
+.our-feature{
+    padding: 50px 0;
+}
+.o-f-text{
+    padding-left: 120px;
+}
+.o-f-title{
+    padding-right: 60px;
+}
+.o-f-title h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #242F51;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+.o-f-title p{
+    font-size: 16px;
+    color: #494949;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 15px;
+}
+.o-f-content{
+    
+}
+.o-f-content img{
+    width: 100px;
+    height: auto;
+    padding-bottom: 10px;
+}
+.o-f-content h1{
+    font-family: 'Poppins', sans-serif;
+    color: #242F51;
+    font-size: 20px;
+    font-weight: 600;
+}
+.o-f-content p{
+    font-size: 16px;
+    color: #494949;
+    
+}
+.o-f-content{
+    
+}
+.o-f-img{
+    padding-left: 60px;
+}
+.o-f-img img{
+    width: 600px;
+    height: auto;
+}
+.feature-btn{
+    margin-top: 20px;
+}
+
+/*=========== our Pricing Section Start from Here ===========*/
+.our-pricing{
+    padding: 50px 0;
+}
+.o-p-title{
+    text-align: center;
+    padding: 0 180px;
+}
+.o-p-title h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #242F51;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+.o-p-title p{
+    font-size: 16px;
+    color: #494949;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 15px;
+}
+.button-section{
+    border: 2px solid #c0bebe;
+    border-radius: 50px;
+    padding: 5px 0;
+  
+}
+.feature-btn {
+    margin-top: 0px !important;
+}
+.banner-btn-1 {
+    padding: 10px 45px;
+    border-radius: 25px;
+}
+.annually-btn{
+    color: #888585;
+    transition: 0.5s;
+}
+.annually-btn:hover{
+    background: #2500F9;
+    color: #E2EAED;  
+}
+/* card-section */
+.card-section{
+    padding: 40px 0;
+}
+.card{
+    border-radius: 10px;
+    border: none;
+}
+.card:hover{
+    border: 1px solid #b4b4b6;
+
+}
+.card-header{
+    padding: 20px 0;
+}
+.card-header h1{
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #242F51;
+}
+.card-header h1 span{
+    font-size: 20px;
+    color: #b4b4b6;
+    font-weight: 400;
+}
+.card-header h5{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #242F51;
+}
+.card-header p, .card-item p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #b4b4b6;
+}
+.card-item{
+    padding: 20px 0;
+}
+.card-body .pricing-btn a{
+    background: #2500F9;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border-radius: 50px;
+    transition: 0.5s;
+    padding: 10px 20px;
+}
+.card-body .pricing-btn a:hover{
+    color: #fff;
+    background: #3a68f1;
+}
+.days-trail{
+    padding-top: 20px;
+    transition: 0.5s;
+}
+.days-trail a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+/*========== Our Client Section Start from Here =========*/
+.our-client{
+    padding: 50px 0;
+}
+.o-c-title{
+    padding-top:50px ;
+}
+.our-client .review-item{
+    padding-right: 80px;
+}
+.o-c-title .t-h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #242F51;
+    padding-bottom: 15px;
+    font-weight: 600;
+    padding-right: 90px;
+}
+.o-c-title p{
+    font-size: 16px;
+    color: #494949;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 15px;
+    padding-right: 90px;
+}
+.client-comment h1{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #242F51;
+    padding-bottom: 15px;
+    font-weight: 600;
+    padding-right: 90px;
+}
+.client-comment p{
+    font-size: 14px;
+    color: #494949;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 15px;
+    padding-right: 140px;
+}
+.ratting i{
+    color: #FFCC00;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.client-info-text{
+    padding: 20px;
+}
+.client-info-text h6{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #242F51;
+    font-weight: 600;
+}
+.client-info-text p{
+    font-size: 16px;
+    color: #494949;
+    font-family: 'Poppins', sans-serif;
+}
+.owl-nav{
+    overflow: hidden;
+}
+.owl-theme .owl-nav {
+    display: none;
+}
+
+/*=========== Asked Question Section Start from Here ==========*/
+.asked-question{
+    padding: 50px 0;
+}
+.asked-question-title{
+    text-align: center;
+}
+.asked-question-title h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #242F51;
+    padding-bottom: 15px;
+    font-weight: 600;
+    padding: 10px 140px;
+}
+.asked-question-title p{
+    font-size: 16px;
+    color: #494949;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 15px;
+    padding: 10px 140px;
+}
+.info-section{
+    width: 80%;
+    padding: 50px 0 ;
+}
+.accordion-item{
+    margin-bottom: 10px;
+    border-bottom: none;
+}
+.accordion-item .accordion-header .accordion-button{
+    font-size: 19px !important;
+    font-weight: 600 !important;
+    background: #f5f7fa !important;
+}
+.accordion-item .accordion-collapse .accordion-body{
+    background: #f5f7fa !important;
+}
+.accordion-button:not(.collapsed) {
+    color: #242F51;
+    background-color: #e7f1ff;
+    box-shadow: none;
+}
+/*================ Download app Section start from Here ===============*/
+.download-app .d-a-content{
+    padding-top: 70px;
+    padding-left: 140px;
+}
+.d-a-img img{
+    width: 650px;
+    height: auto;
+}
+
+
+/*============ Footer Section start from Here ================*/
+footer{
+    background: #242F51;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: -40px;
+}
+.footer-content img{
+    padding-bottom: 20px;
+}
+.footer-menu ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.footer-menu ul li a{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.footer-menu ul li a:hover{
+    color: #64719b;
+}
+.social-icon a{
+    text-decoration: none;
+    color: #616060;
+    font-size: 30px;
+    padding: 20px 10px;
+    transition: 0.5s;
+}
+.social-icon a:hover{
+    color: #E2EAED;
+}
+.copyright{
+    color: #5a5b5c;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+}

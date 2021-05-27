@@ -1,0 +1,273 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .banner-content {
+        margin: auto;
+        padding: 0px;
+    }
+    .banner-content {
+       margin: auto ;
+       width: auto;
+  }
+  .banner{
+    padding: 0px ;
+  }
+  .banner-content h6{
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  .banner-content h1 {
+    font-size: 37px;
+    margin-bottom: 20px;
+  }
+  .banner-content p {
+    font-size: 15px;
+  }
+  .banner-btn-1 {
+    padding: 8px 30px;
+    border-radius: 25px;
+  }
+  .banner-btn-2 {
+    font-size: 19px !important;
+  }
+  .banner-btn {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.banner-img img{
+  margin: auto;
+  height: 500px !important;
+  width: 300px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+.colam-banner{
+  flex-direction: column-reverse;
+}
+
+/* Companis */
+.companies {
+  padding: 50px 0;
+  padding-bottom: 0px !important;
+}
+.owl-item{
+  width: auto;
+  margin-right: 0px;
+}
+/* feature */
+.features {
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+.features-text {
+  padding-top: 0px;
+}
+.features-text h1 {
+  font-size: 35px;
+}
+.features-text .ft-p {
+  font-size: 15px;
+}
+.feature-content{
+  text-align: center;
+}
+/* Smart jeckpot */
+.content-text-left h1 {
+  font-size: 32px;
+}
+.content-text-middile{
+  height: 1px;
+  width: 150px;
+  margin: 25px 0;
+  margin-left: 110px;
+
+}
+.smart-jeckpot {
+  padding: 50px 0;
+  text-align: center;
+}
+.smart-jecpot-item{
+  text-align: center;
+  padding-top: 20px;
+}
+.jeckpot-item-content{
+  padding-bottom: 20px;
+}
+.jeckpot-item-content p {
+  padding-right: 0px; 
+}
+.code-integration {
+  padding-top: 18px ;
+}
+.cic-text {
+  padding-top: 40px;
+  padding-right: 0px; 
+  padding-left: 0px; 
+}
+
+.cic-text h1 {
+  font-size: 35px;
+}
+.o-s-title {
+  text-align: center;
+  padding: 0px; 
+  
+}
+.o-s-title h1{
+  padding: 0px;
+  padding-bottom: 20px !important;
+}
+.o-s-title h1 {
+  font-size: 37px;
+}
+.our-services {
+  padding: 40px 0;
+}
+.our-feature {
+  padding: 30px 0;
+  text-align: center;
+}
+.app-item {
+  padding:  0px;
+}
+.o-f-text {
+  padding-left: 0px;
+}
+.o-f-title {
+  padding-right: 0px;
+}
+.o-f-title h1 {
+  font-size: 30px;
+}
+.o-f-img {
+  padding-left: 0px;
+  padding-top: 20px;
+}
+.o-p-title {
+  text-align: center;
+  padding: 0px;
+}
+.o-p-title h1 {
+  font-size: 30px;
+}
+.card {
+    margin-bottom: 20px;
+}
+.our-pricing {
+  padding: 0px ;
+}
+.o-c-title {
+  padding-top: 0px;
+}
+.o-c-title .t-h1 {
+  font-size: 30px;
+  padding-right: 0px;
+}
+.o-c-title p {
+  padding-right: 90px;
+}
+.client-comment p {
+  padding-right:0px;
+}
+.client-comment h1 {
+  font-size: 18px;
+  padding-right:0px; 
+}
+.our-client .review-item {
+  padding-right: 80px;
+}
+.owl-carousel .owl-item img {
+  display: block;
+  width: auto;
+}
+.our-client .review-item {
+  padding-left: 70px;
+}
+.asked-question-title h1{
+  padding: 0px;
+  font-size: 30px;
+}
+.asked-question-title p{
+  padding: 0px;
+  padding-top: 20px;
+}
+.info-section {
+  width: 100%;
+  padding: 50px 0;
+}
+.asked-question{
+  padding-bottom: 0px;
+}
+.download-app .d-a-content{
+  padding-top: 20px;
+  text-align: center;
+}
+.download-app .d-a-content{
+  padding-left: 0px;
+}
+.d-a-img{
+  margin-top: 30px;
+  padding-bottom: 20px;
+  }
+
+  }
